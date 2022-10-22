@@ -1,0 +1,29 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+* {
+  margin: 0;
+  padding: 0px;
+}
+.icon {
+  font-size: 29px;
+}
+.bgContainer {
+  min-height: 90vh;
+}
+.table {
+  width: 50%;
+}
+.form {
+  width: 45%;
+  height: 60%;
+}
+@media screen and (max-width: 768px) {
+  .table {
+    width: 95%;
+  }
+  .form {
+    width: 94%;
+  }
+}
